@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بحث التقارير</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="icon" type="image/x-icon" href="Images/government.png">
+</head>
+
+<body class="container">
+    <center>
+        <h3>بحث التقارير</h3>
+    </center>
+    <br />
+    <ul class="tabs">
+        <li class="active" data-cont=".one">احصائيات</li>
+        <li data-cont=".two">بحث باسم المفتش</li>
+        <li data-cont=".three">بحث باسم المعني بالتفتيش</li>
+        <li data-cont=".four">بحث برقم التقرير</li>
+    </ul>
+    <div class="content">
+        <div class="one">
+            <table style="background-color: #ded7d5c4; width: 1120px;">
+                <tr>
+                    <td><input type="checkbox"> <label>إجمالي تقارير الدورة الأولي : </label></td>
+                    <td><input type="text" value="120"></td>
+                    <td><label>الوارد : </label> <input type="text" value="51"></td>
+                    <td> <label style="color: orange;">المتبقي : </label> <input type="text" value="69"></td>
+                    <td> <button style="background-color: white; width: 90px;">تحديث</button></td>
+
+                </tr>
+                <tr>
+                    <td><input type="checkbox"> <label>إجمالي تقارير الدورة الثانية : </label></td>
+                    <td><input type="text" value="0"></td>
+                    <td><label>الوارد : </label> <input type="text" value="0"></td>
+                    <td> <label style="color: orange;">المتبقي : </label> <input type="text" value="0"></td>
+                    <td> <button style="background-color: white; width: 90px;">تحديث</button></td>
+
+                </tr>
+                <tr>
+                    <td><input type="checkbox"> <label>إجمالي تقارير المساعدين : </label></td>
+                    <td><input type="text" value="0"></td>
+                    <td><label>الوارد : </label> <input type="text" value="0"></td>
+                    <td> <label style="color: orange;">المتبقي : </label> <input type="text" value="0"></td>
+                    <td> <button style="background-color: white; width: 90px;">تحديث</button></td>
+
+                </tr>
+                <tr>
+                    <td><input type="checkbox"> <label>إجمالي تقارير النيابات المتخصصة : </label></td>
+                    <td><input type="text" value="6"></td>
+                    <td><label>الوارد : </label> <input type="text" value="5"></td>
+                    <td> <label style="color: orange;">المتبقي : </label> <input type="text" value="1"></td>
+                    <td> <button style="background-color: white; width: 90px;">تحديث</button></td>
+
+                </tr>
+            </table>
+        </div>
+        <div class="two">
+            <div class="container">
+                <div class="top">
+                    <div>الاسم</div>
+                    <div>
+                        <select>
+                            <option>اختر</option>
+                        </select>
+                    </div>
+                    <div><button>بحث</button></div>
+                    <div>عدد التقارير</div>
+                    <div><input type="text" /></div>
+                    <div>متوسط التقييم</div>
+                    <div><input type="text" /></div>
+
+                    <div class="down">
+                        <div>رقم التقرير</div>
+                        <div>الدورة</div>
+                        <div>المفتش</div>
+                        <div>المعنى بالتفتيش</div>
+                        <div>النيابة</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="three">
+            <div class="Container">
+                <div class="Top">
+                    <div>الاسم</div>
+                    <div>
+                        <select>
+                            <option>اختر</option>
+                        </select>
+                    </div>
+                    <div><button>بحث</button></div>
+
+
+                    <div class="Down">
+                        <div>رقم التقرير</div>
+                        <div>الدورة</div>
+                        <div>المفتش</div>
+                        <div>المعنى بالتفتيش</div>
+                        <div>النيابة</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="four">
+            <div class="Container">
+                <div class="Tops">
+                    <div>رقم التقرير</div>
+                    <div>
+                        <input type="text">
+                    </div>
+                    <div><button>بحث</button></div>
+
+
+                    <div class="Downs">
+                        <div>رقم التقرير</div>
+                        <div>الدورة</div>
+                        <div>المفتش</div>
+                        <div>المعنى بالتفتيش</div>
+                        <div>النيابة</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col col-lg-11">
+            <div>
+                <label>رقم التقرير :</label>
+                <input type="text">
+
+                <label>الدورة :</label>
+                <input type="text">
+                <br>
+                <label>الاسم :</label>
+                <select style="width: 900px">
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+                <br>
+                <label>الدرجه :</label>
+                <select>
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+                <label>النيابه :</label>
+                <select>
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+                <br>
+                <label>الفتره :</label>
+                <label>شهر :</label>
+                <select>
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+                <label>سنه :</label>
+                <select>
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+                <br />
+                <label>السيد المفتش :</label>
+                <select style="width: 800px">
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+                <br />
+                <label>تاريخ الورود :</label>
+                <input type="checkbox" />
+                <br />
+                <label>السيد المستشار عضو اليسار :</label>
+                <input type="checkbox" />
+
+                <label>السيد المستشار عضو اليمين :</label>
+                <input type="checkbox" />
+                <br />
+                <label>السيد المستشار عضو اللجنه :</label>
+                <input type="checkbox" />
+                <br />
+                <label>نتيجه مؤقته :</label>
+                <input type="checkbox" />
+                <label>نتيجه نهائيه :</label>
+                <input type="checkbox" />
+                <br />
+                <label>المراجع :</label>
+                <select>
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+
+                <label>ملخص المأخد :</label>
+                <select>
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+                <br />
+                <label>الرأي في المفتش (درجه التقيم) :</label>
+                <select>
+                    <option width="50px" value="sssss">--اختر--</option>
+                </select>
+                <select>
+                    <option width="50px" value="sssss"></option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-auto">
+            <a href="Screen3.html">
+                <img class="pic" src="Images/icons8-forward-button-50.png"></img>
+            </a>
+            <br>
+            <br>
+            <a href="">
+                <img class="pic" src="Images/icons8-save-50.png"></img>
+            </a>
+            <br>
+            <br>
+            <a href="">
+                <img class="pic" src="Images/icons8-print-50.png"></img>
+            </a>
+            <br>
+            <br>
+            <a href="">
+                <img class="pic" src="Images/icons8-delete-100.png" width="50" height="50"></img>
+            </a>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/action.js"></script>
+</body>
+
+</html>
